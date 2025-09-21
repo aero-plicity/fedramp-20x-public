@@ -7,7 +7,7 @@
 
 # Aeroplicity FedRAMP 20x - Public
 
-> **Purpose.** This repository contains the **public** materials for Aeroplicity’s FedRAMP 20x submission. It is safe to publish and contains no Controlled Unclassified Information (CUI) or sensitive production secrets. Evidence paths shown here reference redacted or synthetic examples suitable for public release.
+> **Purpose.** This repository hosts **public** materials that support Aeroplicity’s FedRAMP 20x authorization effort. It contains no Controlled Unclassified Information (CUI), export-controlled data, or production secrets. Any evidence references point to redacted or synthetic examples intentionally prepared for public release.
 
 ---
 
