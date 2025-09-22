@@ -33,27 +33,89 @@ Each KSI control follows this structure:
       "control-id-1",
       "control-id-2"
     ],
-    "scope": "This KSI applies to [specific components/services/systems]",
+    "scope": "This KSI applies to [specific components/services/systems within the cloud service offering]",
     "cli_commands": [
       {
-        "command": "validation_command",
-        "client_type": "aws_service_or_http",
-        "explanation": "How this evidence demonstrates compliance"
+        "command": "",
+        "client_type": "",
+        "http_request": {
+          "method": "GET",
+          "url": "https://example.com/path"
+        },
+        "evidence_files": [
+          {
+            "file": "filename.ext",
+            "description": "Description of file contents",
+            "applicability": "The section of the evidence file that applies to this KSI"
+          }
+        ],
+        "output_file": "",
+        "post_process": {
+          "type": "multi_step",
+          "steps": [
+            {
+              "action": "call",
+              "method": "describe_instances",
+              "extract": "Reservations[*].Instances[*].InstanceId",
+              "params": {
+                "MaxResults": 50
+              }
+            }
+          ]
+        },
+        "explanation": "Detailed explanation of what evidence demonstrates compliance with this KSI requirement"
       }
-    ]
+    ],
+    "auditor_notes": ""
   }
 }
 ```
 
-### Command Types
+### Command Types and Requirements
 
-The system supports several types of validation commands:
+The system supports several types of validation commands, each with specific requirements:
 
-1. **Evidence Check** - Verifies files exist in the evidence directory
-2. **AWS API Calls** - Executes boto3 methods (e.g., `client.describe_instances()`)
-3. **HTTP Downloads** - Downloads content from URLs
-4. **Multi-step Operations** - Complex validation workflows with post-processing
-5. **Aeroplicity API Calls** - Internal API endpoint validation
+1. **Evidence Check** (`"command": "evidence_check"`)
+   - **Purpose**: Verify files exist in `evidence/{KSI-ID}/` directory
+   - **Required**: `evidence_files` array listing files to verify
+   - **Optional**: `note` for additional context
+
+2. **AWS API Calls** (e.g., `"command": "client.describe_instances()"`)
+   - **Purpose**: Execute AWS API calls via boto3
+   - **Required**: `client_type` (AWS service name like s3, ec2, iam, cloudtrail)
+   - **Optional**: `note`, `post_process` for result processing
+
+3. **HTTP Downloads** (`"command": "download"`)
+   - **Purpose**: Download content from HTTP URLs
+   - **Required**: `client_type="http"`, `http_request` object with method and URL
+   - **Optional**: `output_file` (saves to `evidence/{KSI-ID}/`), `note`
+
+4. **Multi-step Operations** (`"command": "multi_step"`)
+   - **Purpose**: Execute complex multi-step validation workflows
+   - **Required**: `post_process` object with `type: "multi_step"` and `steps` array
+   - **Optional**: `client_type`, `note`
+
+5. **Aeroplicity API Calls** (`"command": "aeroplicity_api"`)
+   - **Purpose**: Call Aeroplicity API endpoints using environment-driven form-data
+   - **Required**: `client_type="aeroplicity_api"`, `http_request` object
+   - **Note**: Server base URL comes from env var `aeroplicity_api_server_url`
+   - **Note**: Automatically includes env vars for authentication and context
+   - **Optional**: `post_process`
+
+### Post-Processing Capabilities
+
+For complex validation scenarios, the `post_process` object supports:
+
+- **Multi-step Operations**: Sequential operations with `steps` array
+- **Filtering**: Filter data based on criteria
+- **Data Extraction**: Use JMESPath expressions to extract specific data
+- **Transformation**: Transform data structures
+
+Each step in a multi-step operation can:
+- **Call** APIs (`"action": "call"`) with method, parameters, and extraction rules
+- **Filter** data based on conditions
+- **Extract** data using JMESPath expressions
+- **Transform** data structures
 
 ### KSI Categories
 
@@ -67,6 +129,21 @@ KSI identifiers follow the pattern: `KSI-[CATEGORY]-[NUMBER]`
 ### Evidence Organization
 
 Evidence files are organized in the `evidence/{KSI-ID}/` directory structure, with automated validation ensuring all required evidence exists for compliance verification.
+
+#### Evidence File Requirements
+
+For each KSI, evidence files must include:
+- **File name**: The actual filename of the evidence document
+- **Description**: Clear description of what the file contains
+- **Applicability**: Specific section or content of the evidence file that applies to this KSI requirement
+
+#### Validation Process
+
+- Evidence files are automatically checked in `evidence/{KSI-ID}/` directory
+- Multiple commands can be combined for comprehensive validation
+- Post-processing enables complex validation scenarios
+- The scope field defines where the KSI applies within the cloud service offering
+- The explanation field documents how the evidence demonstrates compliance with the KSI requirement
 
 ---
 
