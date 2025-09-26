@@ -28,59 +28,7 @@
     "overall_service_description": "Aeroplicity provides frictionless operating software built for Aerospace & Defense. Our platform simplifies maintenance, repair, and overhaul (MRO), strengthens supply-chain logistics, and streamlines cybersecurity compliance. By embedding DFARS, CMMC, ITAR, and other DoD mandates directly into workflows, we reduce the burden of compliance while enabling faster, more secure collaboration across OEMs, primes, and subcontractors.Built on FedRAMP-authorized infrastructure with blockchain-backed auditability, Aeroplicity is AI-native—applying advanced automation and decision support to deliver reliable, explainable outcomes compliantly. Our advantage is rapid onboarding, immutable compliance records, and deep A&D domain expertise—helping contractors of every size operate with the speed and assurance demanded by today’s defense ecosystem.",
     "services": [
         {
-            "name": "AI",
-            "impact_level": "Moderate"
-        },
-        {
-            "name": "Browser",
-            "impact_level": "Moderate"
-        },
-        {
-            "name": "Email",
-            "impact_level": "Moderate"
-        },
-        {
-            "name": "File Share",
-            "impact_level": "Moderate"
-        },
-        {
-            "name": "Interface",
-            "impact_level": "Moderate"
-        },
-        {
-            "name": "Inventory",
-            "impact_level": "Moderate"
-        },
-        {
-            "name": "Logistics",
-            "impact_level": "Moderate"
-        },
-        {
-            "name": "Logs",
-            "impact_level": "Moderate"
-        },
-        {
-            "name": "Planning",
-            "impact_level": "Moderate"
-        },
-        {
-            "name": "Procurement",
-            "impact_level": "Moderate"
-        },
-        {
-            "name": "Sales",
-            "impact_level": "Moderate"
-        },
-        {
-            "name": "Time",
-            "impact_level": "Moderate"
-        },
-        {
-            "name": "Traceability",
-            "impact_level": "Moderate"
-        },
-        {
-            "name": "Training",
+            "name": "Aeroplicity",
             "impact_level": "Moderate"
         }
     ],
