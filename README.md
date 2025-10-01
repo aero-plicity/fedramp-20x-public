@@ -15,7 +15,7 @@
 
 Aeroplicity provides frictionless operating software built for Aerospace & Defense.
 
-[Visit the Aeroplicity Trust Center →](https://aeroplicity.com/trust-center)
+<a href="https://aeroplicity.com/trust-center" target="_blank" rel="noopener noreferrer">Visit the Aeroplicity Trust Center →</a>
 
 ---
 
