@@ -1,0 +1,33 @@
+{
+  "artifact": "unified_ksi_validations-public.json",
+  "description": "Documentation of the fields contained in the public machine-readable KSI results.",
+  "fields": {
+    "metadata": {
+      "generated_at": "ISO-8601 timestamp",
+      "generator_version": "string",
+      "total_ksis": "integer",
+      "total_passed": "integer",
+      "total_partial": "integer",
+      "total_failed": "integer",
+      "category_summary": "object keyed by category prefix with counts and long_name"
+    },
+    "validations": [
+      {
+        "ksi_id": "string (e.g., KSI-MLA-08)",
+        "assessment": "string enum: True | False | Partial",
+        "validation_method": "string (tool/engine id)",
+        "commands_executed": "integer",
+        "successful_commands": "integer",
+        "failed_commands": "integer",
+        "timestamp": "ISO-8601 timestamp",
+        "requirement": "string",
+        "category_prefix": "string (e.g., KSI-MLA)",
+        "long_name": "string (category long name)",
+        "public_redactions": "boolean",
+        "public_notes": "string (public-safe rationale/next steps)"
+      }
+    ]
+  }
+}
+
+

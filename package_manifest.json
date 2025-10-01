@@ -1,0 +1,19 @@
+{
+  "artifacts": [
+    "access_instructions.json",
+    "submission_rationale.md",
+    "executive_summary.md",
+    "frr-ads-01.json",
+    "README.md",
+    "unified_ksi_validations-public.json",
+    "ksi/ksis_assessment.md",
+    "ksi/ksi_results_schema.json",
+    "ksi/ksi_command_schema.jsonc",
+    "evidence/evidence_index.json",
+    "conmon/continuous_monitoring_plan.md",
+    "conmon/conmon_pipeline.json",
+    "attestation/3pao_attestation.md"
+  ]
+}
+
+

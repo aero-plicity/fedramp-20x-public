@@ -15,6 +15,8 @@
 
 Aeroplicity provides frictionless operating software built for Aerospace & Defense.
 
+[Visit the Aeroplicity Trust Center →](https://aeroplicity.com/trust-center)
+
 ---
 
 ## Key Security Indicator (KSI) Control Structure
@@ -68,6 +70,44 @@ Each KSI control follows this structure:
     ],
     "auditor_notes": ""
   }
+}
+```
+
+### Public KSI Results JSON structure
+
+The published, machine-readable KSI results conform to the following structure (see `ksi/ksi_results_schema.json` for details):
+
+```json
+{
+  "metadata": {
+    "generated_at": "ISO-8601 timestamp",
+    "generator_version": "string",
+    "total_ksis": "integer",
+    "total_passed": "integer",
+    "total_partial": "integer",
+    "total_failed": "integer",
+    "category_summary": {
+      "<category_prefix>": {
+        "total": "integer",
+        "passed": "integer",
+        "partial": "integer",
+        "failed": "integer",
+        "long_name": "string"
+      }
+    }
+  },
+  "validations": [
+    {
+      "ksi_id": "string (e.g., KSI-MLA-08)",
+      "assessment": "string enum: Pass | Partial | Fail",
+      "timestamp": "ISO-8601 timestamp",
+      "successful_commands": "integer",
+      "failed_commands": "integer",
+      "requirement": "string",
+      "long_name": "string",
+      "category_prefix": "string (e.g., KSI-MLA)"
+    }
+  ]
 }
 ```
 

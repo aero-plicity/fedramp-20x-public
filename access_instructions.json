@@ -1,0 +1,15 @@
+{
+  "purpose": "How to request access to restricted evidence and coordinate formal submissions.",
+  "requesting_restricted_evidence": {
+    "contact": "security@aeroplicity.com",
+    "required_details": [
+      "Requester organization and role",
+      "Intended use (FedRAMP/agency review)",
+      "Requested artifacts and timeframe"
+    ]
+  },
+  "human_friendly_mechanism_for_access": {
+    "site": "https://aeroplicity.com/trust-center",
+    "description": "The Aeroplicity Trust Center is a portal for viewing public evidence and requesting access to restricted evidence."
+  }
+}

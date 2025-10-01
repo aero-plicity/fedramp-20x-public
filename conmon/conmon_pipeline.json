@@ -1,0 +1,29 @@
+{
+  "name": "aeroplicity-conmon-pipeline",
+  "triggers": {
+    "schedule": ["daily", "weekly"],
+    "events": ["config_change", "deployment", "incident"]
+  },
+  "stages": [
+    {
+      "name": "collect",
+      "actions": [
+        { "type": "aws_sdk", "service": "iam", "operation": "list_roles" },
+        { "type": "aws_sdk", "service": "cloudtrail", "operation": "describe_trails" }
+      ]
+    },
+    {
+      "name": "validate",
+      "actions": [
+        { "type": "ksi_eval", "ksis": ["KSI-IAM-01", "KSI-IAM-04", "KSI-MLA-08"] }
+      ]
+    },
+    {
+      "name": "publish",
+      "actions": [
+        { "type": "merge_results", "target": "unified_ksi_validations-public.json" },
+        { "type": "open_pr", "files": ["unified_ksi_validations-public.json", "ksis_assessment.md"] }
+      ]
+    }
+  ]
+}
