@@ -1,5 +1,5 @@
 {
-  "index_version": "2025-10-01",
+  "index_version": "2025-10-02",
   "items": [
     {
       "ksi_id": "KSI-CED-01",
@@ -674,6 +674,10 @@
       "category": "KSI-SVC",
       "public_summary": "Remove unwanted information promptly, including from backups if appropriate.",
       "restricted_artifacts": [
+        {
+          "type": "evidence",
+          "path": "evidence/KSI-SVC-10/privacy-policy.jpg"
+        },
         {
           "type": "machine_result",
           "path": "evidence/KSI-SVC-10/cli_output.json"
