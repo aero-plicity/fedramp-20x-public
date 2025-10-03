@@ -1,5 +1,5 @@
 {
-  "index_version": "2025-10-02",
+  "index_version": "2025-10-03",
   "items": [
     {
       "ksi_id": "KSI-CED-01",
@@ -206,6 +206,10 @@
       "public_summary": "Use secure passwordless methods for user authentication and authorization when feasible, otherwise enforce strong passwords with MFA.",
       "restricted_artifacts": [
         {
+          "type": "evidence",
+          "path": "evidence/KSI-IAM-02/mfa_enabled.png"
+        },
+        {
           "type": "machine_result",
           "path": "evidence/KSI-IAM-02/cli_output.json"
         }
@@ -346,6 +350,10 @@
       "category": "KSI-MLA",
       "public_summary": "Rapidly detect and respond to vulnerabilities following requirements and recommendations in the FedRAMP Vulnerability Response and Detection standard.",
       "restricted_artifacts": [
+        {
+          "type": "evidence",
+          "path": "evidence/KSI-MLA-03/FedRAMP-POAM-Template.xlsx"
+        },
         {
           "type": "machine_result",
           "path": "evidence/KSI-MLA-03/cli_output.json"

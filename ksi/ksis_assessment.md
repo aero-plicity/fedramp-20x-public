@@ -4,9 +4,9 @@ This document lists KSIs in scope with status and brief rationale. See unified_k
 
 | KSI | Category | Status | Rationale (public) |
 | --- | --- | --- | --- |
-| KSI-CED-01 | Cybersecurity Education | Pass | Ensure all employees receive security and privacy awareness training, incident response training, and are familiar with all relevant policies and procedures. |
-| KSI-CED-02 | Cybersecurity Education | Pass | Require role-specific training for high risk roles, including at least roles with privileged access. |
-| KSI-CED-03 | Cybersecurity Education | Pass | Require role-specific training for development and engineering staff covering best practices for delivering secure software. |
+| KSI-CED-01 | Cybersecurity Education | Partial | Ensure all employees receive security and privacy awareness training, incident response training, and are familiar with all relevant policies and procedures. |
+| KSI-CED-02 | Cybersecurity Education | Partial | Require role-specific training for high risk roles, including at least roles with privileged access. |
+| KSI-CED-03 | Cybersecurity Education | Partial | Require role-specific training for development and engineering staff covering best practices for delivering secure software. |
 | KSI-CMT-01 | Commitment | Pass | Log and monitor service modifications. |
 | KSI-CMT-02 | Commitment | Pass | Execute changes though redeployment of version controlled immutable resources rather than direct modification wherever possible. |
 | KSI-CMT-03 | Commitment | Pass | Implement persistent automated testing and validation of changes. |
@@ -55,7 +55,7 @@ This document lists KSIs in scope with status and brief rationale. See unified_k
 | KSI-SVC-06 | Service Configuration | Pass | Use automated key management systems to manage, protect, and regularly rotate digital keys and certificates. |
 | KSI-SVC-07 | Service Configuration | Pass | Use a consistent, risk-informed approach for applying security patches. |
 | KSI-SVC-08 | Service Configuration | Pass | Ensure that changes do not introduce or leave behind residual elements that could negatively affect confidentiality, integrity, or availability of information resources. |
-| KSI-SVC-09 | Service Configuration | Partial | Use mechanisms that continuously validate the authenticity and integrity of communications between information resources. |
+| KSI-SVC-09 | Service Configuration | Pass | Use mechanisms that continuously validate the authenticity and integrity of communications between information resources. |
 | KSI-SVC-10 | Service Configuration | Pass | Remove unwanted information promptly, including from backups if appropriate. |
 | KSI-TPR-01 | Third Party Risk | Pass | Follow the requirements and recommendations in the FedRAMP Minimum Assessment Standard regarding third-party information resources. |
 | KSI-TPR-03 | Third Party Risk | Pass | Identify and prioritize mitigation of potential supply chain risks. |
