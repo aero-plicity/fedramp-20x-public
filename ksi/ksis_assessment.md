@@ -4,9 +4,9 @@ This document lists KSIs in scope with status and brief rationale. See unified_k
 
 | KSI | Category | Status | Rationale (public) |
 | --- | --- | --- | --- |
-| KSI-CED-01 | Cybersecurity Education | Partial | Ensure all employees receive security and privacy awareness training, incident response training, and are familiar with all relevant policies and procedures. |
-| KSI-CED-02 | Cybersecurity Education | Partial | Require role-specific training for high risk roles, including at least roles with privileged access. |
-| KSI-CED-03 | Cybersecurity Education | Partial | Require role-specific training for development and engineering staff covering best practices for delivering secure software. |
+| KSI-CED-01 | Cybersecurity Education | Pass | Ensure all employees receive security and privacy awareness training, incident response training, and are familiar with all relevant policies and procedures. |
+| KSI-CED-02 | Cybersecurity Education | Pass | Require role-specific training for high risk roles, including at least roles with privileged access. |
+| KSI-CED-03 | Cybersecurity Education | Pass | Require role-specific training for development and engineering staff covering best practices for delivering secure software. |
 | KSI-CMT-01 | Commitment | Pass | Log and monitor service modifications. |
 | KSI-CMT-02 | Commitment | Pass | Execute changes though redeployment of version controlled immutable resources rather than direct modification wherever possible. |
 | KSI-CMT-03 | Commitment | Pass | Implement persistent automated testing and validation of changes. |

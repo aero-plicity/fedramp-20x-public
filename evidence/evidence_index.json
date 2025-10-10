@@ -1,11 +1,15 @@
 {
-  "index_version": "2025-10-03",
+  "index_version": "2025-10-10",
   "items": [
     {
       "ksi_id": "KSI-CED-01",
       "category": "KSI-CED",
       "public_summary": "Ensure all employees receive security and privacy awareness training, incident response training, and are familiar with all relevant policies and procedures.",
       "restricted_artifacts": [
+        {
+          "type": "evidence",
+          "path": "evidence/KSI-CED-01/Aeroplicity_Training_Records.csv"
+        },
         {
           "type": "machine_result",
           "path": "evidence/KSI-CED-01/cli_output.json"
@@ -18,6 +22,10 @@
       "public_summary": "Require role-specific training for high risk roles, including at least roles with privileged access.",
       "restricted_artifacts": [
         {
+          "type": "evidence",
+          "path": "evidence/KSI-CED-02/Aeroplicity_Training_Records.csv"
+        },
+        {
           "type": "machine_result",
           "path": "evidence/KSI-CED-02/cli_output.json"
         }
@@ -28,6 +36,10 @@
       "category": "KSI-CED",
       "public_summary": "Require role-specific training for development and engineering staff covering best practices for delivering secure software.",
       "restricted_artifacts": [
+        {
+          "type": "evidence",
+          "path": "evidence/KSI-CED-03/Aeroplicity_Training_Records.csv"
+        },
         {
           "type": "machine_result",
           "path": "evidence/KSI-CED-03/cli_output.json"
@@ -699,7 +711,7 @@
       "restricted_artifacts": [
         {
           "type": "evidence",
-          "path": "evidence/KSI-TPR-01/Boundary Diagram_v1.1.pdf"
+          "path": "evidence/KSI-TPR-01/INFRASTRUCTURE_DIAGRAM.md"
         },
         {
           "type": "machine_result",
