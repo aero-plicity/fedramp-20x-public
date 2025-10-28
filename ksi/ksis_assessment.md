@@ -59,4 +59,4 @@ This document lists KSIs in scope with status and brief rationale. See unified_k
 | KSI-SVC-10 | Service Configuration | Pass | Remove unwanted information promptly, including from backups if appropriate. |
 | KSI-TPR-01 | Third Party Risk | Pass | Follow the requirements and recommendations in the FedRAMP Minimum Assessment Standard regarding third-party information resources. |
 | KSI-TPR-03 | Third Party Risk | Pass | Identify and prioritize mitigation of potential supply chain risks. |
-| KSI-TPR-04 | Third Party Risk | Partial | Monitor third party software information resources for upstream vulnerabilities, with contractual notification requirements or active monitoring services. |
+| KSI-TPR-04 | Third Party Risk | Pass | Monitor third party software information resources for upstream vulnerabilities, with contractual notification requirements or active monitoring services. |

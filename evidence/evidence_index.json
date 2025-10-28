@@ -351,7 +351,7 @@
       "restricted_artifacts": [
         {
           "type": "evidence",
-          "path": "evidence/KSI-MLA-03/FedRAMP-POAM-Template.xlsx"
+          "path": "evidence/KSI-MLA-03/FedRAMP-POAM.xlsx"
         },
         {
           "type": "machine_result",
@@ -729,6 +729,10 @@
         {
           "type": "evidence",
           "path": "evidence/KSI-TPR-04/Appendix P - Cybersecurity Supply Chain Risk Management (C-SCRM) Program - C-SCRM-01_0.pdf"
+        },
+        {
+          "type": "evidence",
+          "path": "evidence/KSI-TPR-04/FedRAMP-POAM.xlsx"
         },
         {
           "type": "machine_result",
