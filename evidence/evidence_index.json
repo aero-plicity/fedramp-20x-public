@@ -414,7 +414,7 @@
         },
         {
           "type": "evidence",
-          "path": "evidence/KSI-PIY-02/Appendix P - Cybersecurity Supply Chain Risk Management (C-SCRM) Program - C-SCRM-01_0.pdf"
+          "path": "evidence/KSI-PIY-02/Appendix P - Cybersecurity Supply Chain Risk Management (C-SCRM) Program - C-SCRM-01_1.pdf"
         },
         {
           "type": "machine_result",
@@ -474,7 +474,7 @@
       "restricted_artifacts": [
         {
           "type": "evidence",
-          "path": "evidence/KSI-PIY-06/Monthly Balance Sheet.csv"
+          "path": "evidence/KSI-PIY-06/Balance Sheet (PROD US).csv"
         },
         {
           "type": "evidence",
@@ -486,7 +486,7 @@
         },
         {
           "type": "evidence",
-          "path": "evidence/KSI-PIY-06/Appendix P - Cybersecurity Supply Chain Risk Management (C-SCRM) Program - C-SCRM-01_0.pdf"
+          "path": "evidence/KSI-PIY-06/Appendix P - Cybersecurity Supply Chain Risk Management (C-SCRM) Program - C-SCRM-01_1.pdf"
         },
         {
           "type": "machine_result",
@@ -501,7 +501,7 @@
       "restricted_artifacts": [
         {
           "type": "evidence",
-          "path": "evidence/KSI-PIY-07/Appendix P - Cybersecurity Supply Chain Risk Management (C-SCRM) Program - C-SCRM-01_0.pdf"
+          "path": "evidence/KSI-PIY-07/Appendix P - Cybersecurity Supply Chain Risk Management (C-SCRM) Program - C-SCRM-01_1.pdf"
         },
         {
           "type": "machine_result",
@@ -713,7 +713,7 @@
       "restricted_artifacts": [
         {
           "type": "evidence",
-          "path": "evidence/KSI-TPR-03/Appendix P - Cybersecurity Supply Chain Risk Management (C-SCRM) Program - C-SCRM-01_0.pdf"
+          "path": "evidence/KSI-TPR-03/Appendix P - Cybersecurity Supply Chain Risk Management (C-SCRM) Program - C-SCRM-01_1.pdf"
         },
         {
           "type": "machine_result",
@@ -728,11 +728,7 @@
       "restricted_artifacts": [
         {
           "type": "evidence",
-          "path": "evidence/KSI-TPR-04/Appendix P - Cybersecurity Supply Chain Risk Management (C-SCRM) Program - C-SCRM-01_0.pdf"
-        },
-        {
-          "type": "evidence",
-          "path": "evidence/KSI-TPR-04/FedRAMP-POAM.xlsx"
+          "path": "evidence/KSI-TPR-04/Appendix P - Cybersecurity Supply Chain Risk Management (C-SCRM) Program - C-SCRM-01_1.pdf"
         },
         {
           "type": "machine_result",
