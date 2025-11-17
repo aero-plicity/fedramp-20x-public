@@ -284,7 +284,11 @@
       "restricted_artifacts": [
         {
           "type": "evidence",
-          "path": "evidence/KSI-INR-01/Appendix I - Incident Response Plan - IRP-01_0.pdf"
+          "path": "evidence/KSI-INR-01/Appendix I - Incident Response Plan - IRP-01_1.pdf"
+        },
+        {
+          "type": "evidence",
+          "path": "evidence/KSI-INR-01/Aeroplicity Risk Register.xlsx"
         },
         {
           "type": "machine_result",
@@ -299,7 +303,15 @@
       "restricted_artifacts": [
         {
           "type": "evidence",
-          "path": "evidence/KSI-INR-02/Appendix I - Incident Response Plan - IRP-01_0.pdf"
+          "path": "evidence/KSI-INR-02/Appendix I - Incident Response Plan - IRP-01_1.pdf"
+        },
+        {
+          "type": "evidence",
+          "path": "evidence/KSI-INR-02/Aeroplicity Risk Register.xlsx"
+        },
+        {
+          "type": "evidence",
+          "path": "evidence/KSI-INR-02/Aeroplicity Lessons Learned Register.xlsx"
         },
         {
           "type": "machine_result",
@@ -314,7 +326,15 @@
       "restricted_artifacts": [
         {
           "type": "evidence",
-          "path": "evidence/KSI-INR-03/Appendix I - Incident Response Plan - IRP-01_0.pdf"
+          "path": "evidence/KSI-INR-03/Appendix I - Incident Response Plan - IRP-01_1.pdf"
+        },
+        {
+          "type": "evidence",
+          "path": "evidence/KSI-INR-03/Aeroplicity Risk Register.xlsx"
+        },
+        {
+          "type": "evidence",
+          "path": "evidence/KSI-INR-03/Aeroplicity Lessons Learned Register.xlsx"
         },
         {
           "type": "machine_result",
@@ -535,11 +555,15 @@
         },
         {
           "type": "evidence",
-          "path": "evidence/KSI-RPL-02/Appendix I - Incident Response Plan - IRP-01_0.pdf"
+          "path": "evidence/KSI-RPL-02/Appendix I - Incident Response Plan - IRP-01_1.pdf"
         },
         {
           "type": "evidence",
           "path": "evidence/KSI-RPL-02/Appendix G - Information System Contingency Plan (ISCP) - ISCP-01_1.pdf"
+        },
+        {
+          "type": "evidence",
+          "path": "evidence/KSI-RPL-02/Aeroplicity Risk Register.xlsx"
         },
         {
           "type": "machine_result",
