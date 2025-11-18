@@ -551,7 +551,7 @@
       "restricted_artifacts": [
         {
           "type": "evidence",
-          "path": "evidence/KSI-RPL-02/sla_service_level_agreement.jpg"
+          "path": "evidence/KSI-RPL-02/service-level-agreement.jpg"
         },
         {
           "type": "evidence",
@@ -708,6 +708,10 @@
         {
           "type": "evidence",
           "path": "evidence/KSI-SVC-10/privacy-policy.jpg"
+        },
+        {
+          "type": "evidence",
+          "path": "evidence/KSI-SVC-10/service-level-agreement.jpg"
         },
         {
           "type": "machine_result",
