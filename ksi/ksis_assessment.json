@@ -115,25 +115,25 @@
           ],
           [
             "KSI-CMT-01",
-            "Commitment",
+            "Change Management",
             "Pass",
             "Log and monitor modifications to the cloud service offering."
           ],
           [
             "KSI-CMT-02",
-            "Commitment",
+            "Change Management",
             "Pass",
             "Execute changes though redeployment of version controlled immutable resources rather than direct modification wherever possible."
           ],
           [
             "KSI-CMT-03",
-            "Commitment",
+            "Change Management",
             "Pass",
             "Automate persistent testing and validation of changes throughout deployment."
           ],
           [
             "KSI-CMT-04",
-            "Commitment",
+            "Change Management",
             "Pass",
             "Always follow a documented change management procedure."
           ],
@@ -247,79 +247,79 @@
           ],
           [
             "KSI-MLA-01",
-            "Monitoring, Logging, and Analysis",
+            "Monitoring, Logging, and Auditing",
             "Pass",
             "Operate a Security Information and Event Management (SIEM) or similar system(s) for centralized, tamper-resistent logging of events, activities, and changes."
           ],
           [
             "KSI-MLA-02",
-            "Monitoring, Logging, and Analysis",
+            "Monitoring, Logging, and Auditing",
             "Pass",
             "Regularly review and audit logs."
           ],
           [
             "KSI-MLA-05",
-            "Monitoring, Logging, and Analysis",
+            "Monitoring, Logging, and Auditing",
             "Pass",
             "Perform Infrastructure as Code and configuration evaluation and testing."
           ],
           [
             "KSI-MLA-07",
-            "Monitoring, Logging, and Analysis",
+            "Monitoring, Logging, and Auditing",
             "Pass",
             "Maintain a list of information resources and event types that will be monitored, logged, and audited, then do so."
           ],
           [
             "KSI-MLA-08",
-            "Monitoring, Logging, and Analysis",
+            "Monitoring, Logging, and Auditing",
             "Pass",
             "Use a least-privileged, role and attribute-based, and just-in-time access authorization model for access to log data based on organizationally defined data sensitivity."
           ],
           [
             "KSI-PIY-01",
-            "Policy and Implementation",
+            "Policy and Inventory",
             "Pass",
             "Use authoritative sources to automatically maintain real-time inventories of all information resources."
           ],
           [
             "KSI-PIY-02",
-            "Policy and Implementation",
+            "Policy and Inventory",
             "Pass",
             "Document the security objectives and requirements for each information resource or set of information resources."
           ],
           [
             "KSI-PIY-03",
-            "Policy and Implementation",
+            "Policy and Inventory",
             "Pass",
             "Maintain a vulnerability disclosure program."
           ],
           [
             "KSI-PIY-04",
-            "Policy and Implementation",
+            "Policy and Inventory",
             "Pass",
             "Monitor the effectiveness of building security and privacy considerations into the Software Development Lifecycle and aligning with CISA Secure By Design principles."
           ],
           [
             "KSI-PIY-05",
-            "Policy and Implementation",
+            "Policy and Inventory",
             "Pass",
             "Document methods used to evaluate information resource implementations."
           ],
           [
             "KSI-PIY-06",
-            "Policy and Implementation",
+            "Policy and Inventory",
             "Pass",
             "Monitor the effectiveness of the organization's investments in achieving security objectives."
           ],
           [
             "KSI-PIY-07",
-            "Policy and Implementation",
+            "Policy and Inventory",
             "Pass",
             "Document risk management decisions for software supply chain security."
           ],
           [
             "KSI-PIY-08",
-            "Policy and Implementation",
+            "Policy and Inventory",
             "Pass",
             "Regularly measure executive support for achieving the organization's security objectives."
           ],
@@ -403,13 +403,13 @@
           ],
           [
             "KSI-TPR-03",
-            "Third Party Risk",
+            "Third-Party Information Resources",
             "Pass",
             "Identify and prioritize mitigation of potential supply chain risks."
           ],
           [
             "KSI-TPR-04",
-            "Third Party Risk",
+            "Third-Party Information Resources",
             "Pass",
             "Automatically monitor third party software information resources for upstream vulnerabilities using mechanisms that may include contractual notification requirements or active monitoring services."
           ]

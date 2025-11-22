@@ -1,0 +1,52 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "FedRAMP Universal Document Model (Hierarchical)",
+  "type": "object",
+  "properties": {
+    "kind": {
+      "type": "string",
+      "description": "The type of document (Evidence, Registry, ValidationReport)",
+      "enum": ["Evidence", "Registry", "ValidationReport"]
+    },
+    "metadata": {
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "title": { "type": "string" },
+        "last_updated": { "type": "string", "format": "date" },
+        "version": { "type": "string" },
+        "author": { "type": "string" },
+        "status": { "type": "string" },
+        "tags": { "type": "array", "items": { "type": "string" } }
+      },
+      "required": ["title", "last_updated"]
+    },
+    "content": {
+      "type": "array",
+      "description": "Hierarchical list of content nodes",
+      "items": {
+        "$ref": "#/definitions/node"
+      }
+    }
+  },
+  "definitions": {
+    "node": {
+      "type": "object",
+      "properties": {
+        "type": {
+          "type": "string",
+          "enum": ["section", "text", "list", "code", "table", "requirement", "qa_pair", "signature", "ksi_definition", "validation_result", "resource_inventory"]
+        },
+        "id": { "type": "string", "description": "Machine-readable identifier (slug or UUID)" },
+        "title": { "type": "string", "description": "Human-readable title (mainly for sections)" },
+        "data": { "type": "object", "description": "Type-specific payload" },
+        "children": {
+          "type": "array",
+          "items": { "$ref": "#/definitions/node" }
+        }
+      },
+      "required": ["type"]
+    }
+  },
+  "required": ["kind", "metadata", "content"]
+}

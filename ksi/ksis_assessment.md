@@ -20,10 +20,10 @@
 | KSI-CED-02 | Cybersecurity Education | Pass | Require and monitor the effectiveness of role-specific training for high risk roles, including at least roles with privileged access. |
 | KSI-CED-03 | Cybersecurity Education | Pass | Require and monitor the effectiveness of role-specific training provided to development and engineering staff that covers best practices for delivering secure software. |
 | KSI-CED-04 | Cybersecurity Education | Pass | Require and monitor the effectiveness of role-specific training to staff involved with incident response or disaster recovery. |
-| KSI-CMT-01 | Commitment | Pass | Log and monitor modifications to the cloud service offering. |
-| KSI-CMT-02 | Commitment | Pass | Execute changes though redeployment of version controlled immutable resources rather than direct modification wherever possible. |
-| KSI-CMT-03 | Commitment | Pass | Automate persistent testing and validation of changes throughout deployment. |
-| KSI-CMT-04 | Commitment | Pass | Always follow a documented change management procedure. |
+| KSI-CMT-01 | Change Management | Pass | Log and monitor modifications to the cloud service offering. |
+| KSI-CMT-02 | Change Management | Pass | Execute changes though redeployment of version controlled immutable resources rather than direct modification wherever possible. |
+| KSI-CMT-03 | Change Management | Pass | Automate persistent testing and validation of changes throughout deployment. |
+| KSI-CMT-04 | Change Management | Pass | Always follow a documented change management procedure. |
 | KSI-CNA-01 | Cloud Native Architecture | Pass | Configure all machine-based information resources to limit inbound and outbound network traffic. |
 | KSI-CNA-02 | Cloud Native Architecture | Pass | Design systems to minimize the attack surface and minimize lateral movement if compromised. |
 | KSI-CNA-03 | Cloud Native Architecture | Pass | Use logical networking and related capabilities to enforce traffic flow controls. |
@@ -42,19 +42,19 @@
 | KSI-INR-01 | Incident Response | Pass | Always follow a documented incident response procedure. |
 | KSI-INR-02 | Incident Response | Pass | Maintain a log of incidents and periodically review past incidents for patterns or vulnerabilities. |
 | KSI-INR-03 | Incident Response | Pass | Generate after action reports and regularly incorporate lessons learned into operations. |
-| KSI-MLA-01 | Monitoring, Logging, and Analysis | Pass | Operate a Security Information and Event Management (SIEM) or similar system(s) for centralized, tamper-resistent logging of events, activities, and changes. |
-| KSI-MLA-02 | Monitoring, Logging, and Analysis | Pass | Regularly review and audit logs. |
-| KSI-MLA-05 | Monitoring, Logging, and Analysis | Pass | Perform Infrastructure as Code and configuration evaluation and testing. |
-| KSI-MLA-07 | Monitoring, Logging, and Analysis | Pass | Maintain a list of information resources and event types that will be monitored, logged, and audited, then do so. |
-| KSI-MLA-08 | Monitoring, Logging, and Analysis | Pass | Use a least-privileged, role and attribute-based, and just-in-time access authorization model for access to log data based on organizationally defined data sensitivity. |
-| KSI-PIY-01 | Policy and Implementation | Pass | Use authoritative sources to automatically maintain real-time inventories of all information resources. |
-| KSI-PIY-02 | Policy and Implementation | Pass | Document the security objectives and requirements for each information resource or set of information resources. |
-| KSI-PIY-03 | Policy and Implementation | Pass | Maintain a vulnerability disclosure program. |
-| KSI-PIY-04 | Policy and Implementation | Pass | Monitor the effectiveness of building security and privacy considerations into the Software Development Lifecycle and aligning with CISA Secure By Design principles. |
-| KSI-PIY-05 | Policy and Implementation | Pass | Document methods used to evaluate information resource implementations. |
-| KSI-PIY-06 | Policy and Implementation | Pass | Monitor the effectiveness of the organization's investments in achieving security objectives. |
-| KSI-PIY-07 | Policy and Implementation | Pass | Document risk management decisions for software supply chain security. |
-| KSI-PIY-08 | Policy and Implementation | Pass | Regularly measure executive support for achieving the organization's security objectives. |
+| KSI-MLA-01 | Monitoring, Logging, and Auditing | Pass | Operate a Security Information and Event Management (SIEM) or similar system(s) for centralized, tamper-resistent logging of events, activities, and changes. |
+| KSI-MLA-02 | Monitoring, Logging, and Auditing | Pass | Regularly review and audit logs. |
+| KSI-MLA-05 | Monitoring, Logging, and Auditing | Pass | Perform Infrastructure as Code and configuration evaluation and testing. |
+| KSI-MLA-07 | Monitoring, Logging, and Auditing | Pass | Maintain a list of information resources and event types that will be monitored, logged, and audited, then do so. |
+| KSI-MLA-08 | Monitoring, Logging, and Auditing | Pass | Use a least-privileged, role and attribute-based, and just-in-time access authorization model for access to log data based on organizationally defined data sensitivity. |
+| KSI-PIY-01 | Policy and Inventory | Pass | Use authoritative sources to automatically maintain real-time inventories of all information resources. |
+| KSI-PIY-02 | Policy and Inventory | Pass | Document the security objectives and requirements for each information resource or set of information resources. |
+| KSI-PIY-03 | Policy and Inventory | Pass | Maintain a vulnerability disclosure program. |
+| KSI-PIY-04 | Policy and Inventory | Pass | Monitor the effectiveness of building security and privacy considerations into the Software Development Lifecycle and aligning with CISA Secure By Design principles. |
+| KSI-PIY-05 | Policy and Inventory | Pass | Document methods used to evaluate information resource implementations. |
+| KSI-PIY-06 | Policy and Inventory | Pass | Monitor the effectiveness of the organization's investments in achieving security objectives. |
+| KSI-PIY-07 | Policy and Inventory | Pass | Document risk management decisions for software supply chain security. |
+| KSI-PIY-08 | Policy and Inventory | Pass | Regularly measure executive support for achieving the organization's security objectives. |
 | KSI-RPL-01 | Recovery Planning | Pass | Define Recovery Time Objectives (RTO) and Recovery Point Objectives (RPO). |
 | KSI-RPL-02 | Recovery Planning | Pass | Develop and maintain a recovery plan that aligns with the defined recovery objectives. |
 | KSI-RPL-03 | Recovery Planning | Pass | Perform system backups aligned with recovery objectives. |
@@ -68,5 +68,5 @@
 | KSI-SVC-08 | Service Configuration | Pass | Do not introduce or leave behind residual elements that could negatively affect confidentiality, integrity, or availability of federal customer data during operations. |
 | KSI-SVC-09 | Service Configuration | Pass | Persistently validate the authenticity and integrity of communications between machine-based information resources using automation. |
 | KSI-SVC-10 | Service Configuration | Pass | Remove unwanted federal customer data promptly when requested by an agency in alignment with customer agreements, including from backups if appropriate; this typically applies when a customer spills information or when a customer seeks to remove information from a service due to a change in usage. |
-| KSI-TPR-03 | Third Party Risk | Pass | Identify and prioritize mitigation of potential supply chain risks. |
-| KSI-TPR-04 | Third Party Risk | Pass | Automatically monitor third party software information resources for upstream vulnerabilities using mechanisms that may include contractual notification requirements or active monitoring services. |
+| KSI-TPR-03 | Third-Party Information Resources | Pass | Identify and prioritize mitigation of potential supply chain risks. |
+| KSI-TPR-04 | Third-Party Information Resources | Pass | Automatically monitor third party software information resources for upstream vulnerabilities using mechanisms that may include contractual notification requirements or active monitoring services. |
