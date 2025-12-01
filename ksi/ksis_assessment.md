@@ -1,6 +1,6 @@
 # Human-Readable KSI Assessment
 
-**Last Updated:** 2025-11-25 | **Version:** 1.0 | **Status:** generated
+**Last Updated:** 2025-12-01 | **Version:** 1.0 | **Status:** generated
 ---
 
 | KSI | Category | Status | Rationale (public) |
