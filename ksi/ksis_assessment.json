@@ -2,7 +2,7 @@
   "kind": "ValidationReport",
   "metadata": {
     "title": "Human-Readable KSI Assessment",
-    "last_updated": "2025-12-01",
+    "last_updated": "2025-12-03",
     "version": "1.0",
     "status": "generated"
   },
@@ -62,7 +62,7 @@
           [
             "KSI-AFR-07",
             "Authorization by FedRAMP",
-            "Pass",
+            "Partial",
             "Develop secure by default configurations and provide guidance for secure configuration of the cloud service offering to customers in alignment with the FedRAMP Recommended Secure Configuration (RSC) guidance standard and persistently address all related requirements and recommendations."
           ],
           [

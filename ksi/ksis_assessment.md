@@ -1,6 +1,6 @@
 # Human-Readable KSI Assessment
 
-**Last Updated:** 2025-12-01 | **Version:** 1.0 | **Status:** generated
+**Last Updated:** 2025-12-03 | **Version:** 1.0 | **Status:** generated
 ---
 
 | KSI | Category | Status | Rationale (public) |
@@ -11,7 +11,7 @@
 | KSI-AFR-04 | Authorization by FedRAMP | Pass | Document the vulnerability detection and vulnerability response methodology used within the cloud service offering in alignment with the FedRAMP Vulnerability Detection and Response (VDR) standard and persistently address all related requirements and recommendations. |
 | KSI-AFR-05 | Authorization by FedRAMP | Pass | Determine how significant changes will be tracked and how all necessary parties will be notified in alignment with the FedRAMP Significant Change Notifications (SCN) standard and persistently address all related requirements and recommendations. |
 | KSI-AFR-06 | Authorization by FedRAMP | Pass | Maintain a plan and process for providing Ongoing Authorization Reports and Quarterly Reviews for all necessary parties in alignment with the FedRAMP Collaborative Continuous Monitoring (CCM) standard and persistently address all related requirements and recommendations. |
-| KSI-AFR-07 | Authorization by FedRAMP | Pass | Develop secure by default configurations and provide guidance for secure configuration of the cloud service offering to customers in alignment with the FedRAMP Recommended Secure Configuration (RSC) guidance standard and persistently address all related requirements and recommendations. |
+| KSI-AFR-07 | Authorization by FedRAMP | Partial | Develop secure by default configurations and provide guidance for secure configuration of the cloud service offering to customers in alignment with the FedRAMP Recommended Secure Configuration (RSC) guidance standard and persistently address all related requirements and recommendations. |
 | KSI-AFR-08 | Authorization by FedRAMP | Pass | Operate a secure inbox to receive critical communication from FedRAMP and other government entities in alignment with FedRAMP Security Inbox (FSI) requirements and persistently address all related requirements and recommendations. |
 | KSI-AFR-09 | Authorization by FedRAMP | Pass | Persistently validate, assess, and report on the effectiveness and status of security decisions and policies that are implemented within the cloud service offering in alignment with the FedRAMP 20x Persistent Validation and Assessment (PVA) standard, and persistently address all related requirements and recommendations. |
 | KSI-AFR-10 | Authorization by FedRAMP | Pass | Integrate FedRAMP's Incident Communications Procedures (ICP) into incident response procedures and persistently address all related requirements and recommendations. |

@@ -1,6 +1,6 @@
 # Unified KSI Validation Report
 
-**Generated At:** 2025-12-01T18:52:31.396622+00:00 | **Total Ksis:** 65 | **Total Passed:** 65 | **Total Partial:** 0 | **Total Failed:** 0 | **Automated Vs Static Percentage:** 90 | **Last Updated:** 2025-12-01 | **Status:** active
+**Generated At:** 2025-12-03T20:00:09.606803+00:00 | **Total Ksis:** 65 | **Total Passed:** 64 | **Total Partial:** 1 | **Total Failed:** 0 | **Automated Vs Static Percentage:** 90 | **Last Updated:** 2025-12-03 | **Status:** active
 ---
 
 ## Validation Results
@@ -29,7 +29,7 @@
 **Requirement:** Maintain a plan and process for providing Ongoing Authorization Reports and Quarterly Reviews for all necessary parties in alignment with the FedRAMP Collaborative Continuous Monitoring (CCM) standard and persistently address all related requirements and recommendations.
 
 
-### ✅ KSI-AFR-07: PASS
+### ⚠️ KSI-AFR-07: PARTIAL
 **Requirement:** Develop secure by default configurations and provide guidance for secure configuration of the cloud service offering to customers in alignment with the FedRAMP Recommended Secure Configuration (RSC) guidance standard and persistently address all related requirements and recommendations.
 
 
