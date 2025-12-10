@@ -1,7 +1,7 @@
 {
   "kind": "ValidationReport",
   "metadata": {
-    "generated_at": "2025-12-05T20:52:47.514416+00:00",
+    "generated_at": "2025-12-10T15:19:26.410581+00:00",
     "total_ksis": 65,
     "total_passed": 64,
     "total_partial": 1,
@@ -98,7 +98,7 @@
       }
     },
     "title": "Unified KSI Validation Report",
-    "last_updated": "2025-12-05",
+    "last_updated": "2025-12-10",
     "status": "active"
   },
   "content": [
@@ -109,11 +109,11 @@
       "children": [
         {
           "type": "validation_result",
-          "id": "52e1327a",
+          "id": "975c9413",
           "data": {
             "ksi_id": "KSI-AFR-01",
             "assessment": "pass",
-            "timestamp": "2025-12-05T20:46:54.084966+00:00",
+            "timestamp": "2025-12-10T15:13:35.643978+00:00",
             "successful_commands": 3,
             "failed_commands": 0,
             "requirement": "Apply the FedRAMP Minimum Assessment Standard (MAS) to identify and document the scope of the cloud service offering to be assessed for FedRAMP authorization and persistently address all related requirements and recommendations.",
@@ -123,11 +123,11 @@
         },
         {
           "type": "validation_result",
-          "id": "ed1f7f5c",
+          "id": "ddc4cc81",
           "data": {
             "ksi_id": "KSI-AFR-02",
             "assessment": "pass",
-            "timestamp": "2025-12-05T20:46:54.482654+00:00",
+            "timestamp": "2025-12-10T15:13:36.118774+00:00",
             "successful_commands": 1,
             "failed_commands": 0,
             "requirement": "Set security goals for the cloud service offering based on FedRAMP 20x Phase Two Key Security Indicators (KSIs - you are here), develop automated validation of status and progress to the greatest extent possible, and persistently address all related requirements and recommendations.",
@@ -137,11 +137,11 @@
         },
         {
           "type": "validation_result",
-          "id": "89a25cca",
+          "id": "82db373f",
           "data": {
             "ksi_id": "KSI-AFR-03",
             "assessment": "pass",
-            "timestamp": "2025-12-05T20:46:55.181652+00:00",
+            "timestamp": "2025-12-10T15:13:36.940035+00:00",
             "successful_commands": 1,
             "failed_commands": 0,
             "requirement": "Determine how authorization data will be shared with all necessary parties in alignment with the FedRAMP Authorization Data Sharing (ADS) standard and persistently address all related requirements and recommendations.",
@@ -151,11 +151,11 @@
         },
         {
           "type": "validation_result",
-          "id": "cf35aacc",
+          "id": "89ccf9a3",
           "data": {
             "ksi_id": "KSI-AFR-04",
             "assessment": "pass",
-            "timestamp": "2025-12-05T20:47:08.760271+00:00",
+            "timestamp": "2025-12-10T15:13:51.980673+00:00",
             "successful_commands": 14,
             "failed_commands": 0,
             "requirement": "Document the vulnerability detection and vulnerability response methodology used within the cloud service offering in alignment with the FedRAMP Vulnerability Detection and Response (VDR) standard and persistently address all related requirements and recommendations.",
@@ -165,11 +165,11 @@
         },
         {
           "type": "validation_result",
-          "id": "b2cf0555",
+          "id": "d395f19b",
           "data": {
             "ksi_id": "KSI-AFR-05",
             "assessment": "pass",
-            "timestamp": "2025-12-05T20:47:13.924175+00:00",
+            "timestamp": "2025-12-10T15:13:57.849684+00:00",
             "successful_commands": 7,
             "failed_commands": 0,
             "requirement": "Determine how significant changes will be tracked and how all necessary parties will be notified in alignment with the FedRAMP Significant Change Notifications (SCN) standard and persistently address all related requirements and recommendations.",
@@ -179,11 +179,11 @@
         },
         {
           "type": "validation_result",
-          "id": "f41bed1f",
+          "id": "df2168e4",
           "data": {
             "ksi_id": "KSI-AFR-06",
             "assessment": "pass",
-            "timestamp": "2025-12-05T20:47:14.328800+00:00",
+            "timestamp": "2025-12-10T15:13:58.317828+00:00",
             "successful_commands": 1,
             "failed_commands": 0,
             "requirement": "Maintain a plan and process for providing Ongoing Authorization Reports and Quarterly Reviews for all necessary parties in alignment with the FedRAMP Collaborative Continuous Monitoring (CCM) standard and persistently address all related requirements and recommendations.",
@@ -193,11 +193,11 @@
         },
         {
           "type": "validation_result",
-          "id": "e8085baf",
+          "id": "5c97c8e0",
           "data": {
             "ksi_id": "KSI-AFR-07",
             "assessment": "partial",
-            "timestamp": "2025-12-05T20:47:18.815145+00:00",
+            "timestamp": "2025-12-10T15:14:02.477722+00:00",
             "successful_commands": 1,
             "failed_commands": 0,
             "requirement": "Develop secure by default configurations and provide guidance for secure configuration of the cloud service offering to customers in alignment with the FedRAMP Recommended Secure Configuration (RSC) guidance standard and persistently address all related requirements and recommendations.",
@@ -207,11 +207,11 @@
         },
         {
           "type": "validation_result",
-          "id": "8b877473",
+          "id": "7d91613a",
           "data": {
             "ksi_id": "KSI-AFR-08",
             "assessment": "pass",
-            "timestamp": "2025-12-05T20:47:20.173593+00:00",
+            "timestamp": "2025-12-10T15:14:04.028802+00:00",
             "successful_commands": 2,
             "failed_commands": 0,
             "requirement": "Operate a secure inbox to receive critical communication from FedRAMP and other government entities in alignment with FedRAMP Security Inbox (FSI) requirements and persistently address all related requirements and recommendations.",
@@ -221,11 +221,11 @@
         },
         {
           "type": "validation_result",
-          "id": "d29daf44",
+          "id": "b4808978",
           "data": {
             "ksi_id": "KSI-AFR-09",
             "assessment": "pass",
-            "timestamp": "2025-12-05T20:47:22.037130+00:00",
+            "timestamp": "2025-12-10T15:14:06.119069+00:00",
             "successful_commands": 3,
             "failed_commands": 0,
             "requirement": "Persistently validate, assess, and report on the effectiveness and status of security decisions and policies that are implemented within the cloud service offering in alignment with the FedRAMP 20x Persistent Validation and Assessment (PVA) standard, and persistently address all related requirements and recommendations.",
@@ -235,11 +235,11 @@
         },
         {
           "type": "validation_result",
-          "id": "5175c232",
+          "id": "0da1729c",
           "data": {
             "ksi_id": "KSI-AFR-10",
             "assessment": "pass",
-            "timestamp": "2025-12-05T20:47:22.415753+00:00",
+            "timestamp": "2025-12-10T15:14:06.621536+00:00",
             "successful_commands": 1,
             "failed_commands": 0,
             "requirement": "Integrate FedRAMP's Incident Communications Procedures (ICP) into incident response procedures and persistently address all related requirements and recommendations.",
@@ -249,11 +249,11 @@
         },
         {
           "type": "validation_result",
-          "id": "99aa9270",
+          "id": "5964696a",
           "data": {
             "ksi_id": "KSI-AFR-11",
             "assessment": "pass",
-            "timestamp": "2025-12-05T20:47:31.637502+00:00",
+            "timestamp": "2025-12-10T15:14:14.330675+00:00",
             "successful_commands": 7,
             "failed_commands": 0,
             "requirement": "Ensure that cryptographic modules used to protect potentially sensitive federal customer data are selected and used in alignment with the FedRAMP 20x Using Cryptographic Modules (UCM) policy and persistently address all related requirements and recommendations.",
@@ -263,11 +263,11 @@
         },
         {
           "type": "validation_result",
-          "id": "e68aa7ca",
+          "id": "c182897d",
           "data": {
             "ksi_id": "KSI-CED-01",
             "assessment": "pass",
-            "timestamp": "2025-12-05T20:47:34.301788+00:00",
+            "timestamp": "2025-12-10T15:14:17.228159+00:00",
             "successful_commands": 2,
             "failed_commands": 0,
             "requirement": "Require and monitor the effectiveness of training given to all employees on policies, procedures, and security-related topics.",
@@ -277,11 +277,11 @@
         },
         {
           "type": "validation_result",
-          "id": "6f27837d",
+          "id": "018c76f8",
           "data": {
             "ksi_id": "KSI-CED-02",
             "assessment": "pass",
-            "timestamp": "2025-12-05T20:47:36.749191+00:00",
+            "timestamp": "2025-12-10T15:14:20.122645+00:00",
             "successful_commands": 2,
             "failed_commands": 0,
             "requirement": "Require and monitor the effectiveness of role-specific training for high risk roles, including at least roles with privileged access.",
@@ -291,11 +291,11 @@
         },
         {
           "type": "validation_result",
-          "id": "e5b958f5",
+          "id": "c581006a",
           "data": {
             "ksi_id": "KSI-CED-03",
             "assessment": "pass",
-            "timestamp": "2025-12-05T20:47:39.147828+00:00",
+            "timestamp": "2025-12-10T15:14:22.789207+00:00",
             "successful_commands": 2,
             "failed_commands": 0,
             "requirement": "Require and monitor the effectiveness of role-specific training provided to development and engineering staff that covers best practices for delivering secure software.",
@@ -305,11 +305,11 @@
         },
         {
           "type": "validation_result",
-          "id": "eb9bfabd",
+          "id": "1818b99a",
           "data": {
             "ksi_id": "KSI-CED-04",
             "assessment": "pass",
-            "timestamp": "2025-12-05T20:47:41.455448+00:00",
+            "timestamp": "2025-12-10T15:14:25.312724+00:00",
             "successful_commands": 2,
             "failed_commands": 0,
             "requirement": "Require and monitor the effectiveness of role-specific training to staff involved with incident response or disaster recovery.",
@@ -319,11 +319,11 @@
         },
         {
           "type": "validation_result",
-          "id": "d00bc68f",
+          "id": "53b86994",
           "data": {
             "ksi_id": "KSI-CMT-01",
             "assessment": "pass",
-            "timestamp": "2025-12-05T20:47:47.366799+00:00",
+            "timestamp": "2025-12-10T15:14:30.679869+00:00",
             "successful_commands": 9,
             "failed_commands": 0,
             "requirement": "Log and monitor modifications to the cloud service offering.",
@@ -333,11 +333,11 @@
         },
         {
           "type": "validation_result",
-          "id": "c8e9585f",
+          "id": "eeffff94",
           "data": {
             "ksi_id": "KSI-CMT-02",
             "assessment": "pass",
-            "timestamp": "2025-12-05T20:47:53.763230+00:00",
+            "timestamp": "2025-12-10T15:14:36.502223+00:00",
             "successful_commands": 7,
             "failed_commands": 0,
             "requirement": "Execute changes though redeployment of version controlled immutable resources rather than direct modification wherever possible.",
@@ -347,11 +347,11 @@
         },
         {
           "type": "validation_result",
-          "id": "6ec09282",
+          "id": "aa35b128",
           "data": {
             "ksi_id": "KSI-CMT-03",
             "assessment": "pass",
-            "timestamp": "2025-12-05T20:48:02.670052+00:00",
+            "timestamp": "2025-12-10T15:14:43.917674+00:00",
             "successful_commands": 8,
             "failed_commands": 0,
             "requirement": "Automate persistent testing and validation of changes throughout deployment.",
@@ -361,11 +361,11 @@
         },
         {
           "type": "validation_result",
-          "id": "1260c922",
+          "id": "4df798a2",
           "data": {
             "ksi_id": "KSI-CMT-04",
             "assessment": "pass",
-            "timestamp": "2025-12-05T20:48:05.183294+00:00",
+            "timestamp": "2025-12-10T15:14:46.733162+00:00",
             "successful_commands": 6,
             "failed_commands": 0,
             "requirement": "Always follow a documented change management procedure.",
@@ -375,11 +375,11 @@
         },
         {
           "type": "validation_result",
-          "id": "edf78c72",
+          "id": "b7327d00",
           "data": {
             "ksi_id": "KSI-CNA-01",
             "assessment": "pass",
-            "timestamp": "2025-12-05T20:48:12.112764+00:00",
+            "timestamp": "2025-12-10T15:14:53.847794+00:00",
             "successful_commands": 6,
             "failed_commands": 0,
             "requirement": "Configure all machine-based information resources to limit inbound and outbound network traffic.",
@@ -389,11 +389,11 @@
         },
         {
           "type": "validation_result",
-          "id": "688d9b4e",
+          "id": "cf76001a",
           "data": {
             "ksi_id": "KSI-CNA-02",
             "assessment": "pass",
-            "timestamp": "2025-12-05T20:48:17.593723+00:00",
+            "timestamp": "2025-12-10T15:14:59.783670+00:00",
             "successful_commands": 6,
             "failed_commands": 0,
             "requirement": "Design systems to minimize the attack surface and minimize lateral movement if compromised.",
@@ -403,11 +403,11 @@
         },
         {
           "type": "validation_result",
-          "id": "14435e91",
+          "id": "d1dc133b",
           "data": {
             "ksi_id": "KSI-CNA-03",
             "assessment": "pass",
-            "timestamp": "2025-12-05T20:48:28.859400+00:00",
+            "timestamp": "2025-12-10T15:15:09.892672+00:00",
             "successful_commands": 10,
             "failed_commands": 0,
             "requirement": "Use logical networking and related capabilities to enforce traffic flow controls.",
@@ -417,11 +417,11 @@
         },
         {
           "type": "validation_result",
-          "id": "b9d26b9a",
+          "id": "feefa735",
           "data": {
             "ksi_id": "KSI-CNA-04",
             "assessment": "pass",
-            "timestamp": "2025-12-05T20:48:38.492012+00:00",
+            "timestamp": "2025-12-10T15:15:20.493325+00:00",
             "successful_commands": 8,
             "failed_commands": 0,
             "requirement": "Use immutable infrastructure with strictly defined functionality and privileges by default.",
@@ -431,11 +431,11 @@
         },
         {
           "type": "validation_result",
-          "id": "8db878c3",
+          "id": "c1c438db",
           "data": {
             "ksi_id": "KSI-CNA-05",
             "assessment": "pass",
-            "timestamp": "2025-12-05T20:48:46.442987+00:00",
+            "timestamp": "2025-12-10T15:15:29.057942+00:00",
             "successful_commands": 8,
             "failed_commands": 0,
             "requirement": "Protect against denial of service attacks and other unwanted activity.",
@@ -445,11 +445,11 @@
         },
         {
           "type": "validation_result",
-          "id": "1ffd08c4",
+          "id": "a75cf278",
           "data": {
             "ksi_id": "KSI-CNA-06",
             "assessment": "pass",
-            "timestamp": "2025-12-05T20:48:53.654987+00:00",
+            "timestamp": "2025-12-10T15:15:34.476421+00:00",
             "successful_commands": 6,
             "failed_commands": 0,
             "requirement": "Design systems for high availability and rapid recovery.",
@@ -459,11 +459,11 @@
         },
         {
           "type": "validation_result",
-          "id": "fa1fcece",
+          "id": "b5831f01",
           "data": {
             "ksi_id": "KSI-CNA-07",
             "assessment": "pass",
-            "timestamp": "2025-12-05T20:48:58.831468+00:00",
+            "timestamp": "2025-12-10T15:15:39.389975+00:00",
             "successful_commands": 8,
             "failed_commands": 0,
             "requirement": "Ensure cloud-native information resources are implemented based on host provider's best practices and documented guidance.",
@@ -473,11 +473,11 @@
         },
         {
           "type": "validation_result",
-          "id": "8adbd88e",
+          "id": "d25d1f4e",
           "data": {
             "ksi_id": "KSI-CNA-08",
             "assessment": "pass",
-            "timestamp": "2025-12-05T20:49:01.395669+00:00",
+            "timestamp": "2025-12-10T15:15:42.157120+00:00",
             "successful_commands": 6,
             "failed_commands": 0,
             "requirement": "Use automated services to persistently assess the security posture of all machine-based information resources and automatically enforce their intended operational state.",
@@ -487,11 +487,11 @@
         },
         {
           "type": "validation_result",
-          "id": "e0948744",
+          "id": "d69e29a7",
           "data": {
             "ksi_id": "KSI-IAM-01",
             "assessment": "pass",
-            "timestamp": "2025-12-05T20:49:05.087236+00:00",
+            "timestamp": "2025-12-10T15:15:46.291844+00:00",
             "successful_commands": 7,
             "failed_commands": 0,
             "requirement": "Enforce multi-factor authentication (MFA) using methods that are difficult to intercept or impersonate (phishing-resistant MFA) for all user authentication.",
@@ -501,11 +501,11 @@
         },
         {
           "type": "validation_result",
-          "id": "65592558",
+          "id": "827b3069",
           "data": {
             "ksi_id": "KSI-IAM-02",
             "assessment": "pass",
-            "timestamp": "2025-12-05T20:49:09.372115+00:00",
+            "timestamp": "2025-12-10T15:15:50.756924+00:00",
             "successful_commands": 8,
             "failed_commands": 0,
             "requirement": "Use secure passwordless methods for user authentication and authorization when feasible, otherwise enforce strong passwords with MFA.",
@@ -515,11 +515,11 @@
         },
         {
           "type": "validation_result",
-          "id": "5146b2ce",
+          "id": "e380b3ac",
           "data": {
             "ksi_id": "KSI-IAM-03",
             "assessment": "pass",
-            "timestamp": "2025-12-05T20:49:19.593208+00:00",
+            "timestamp": "2025-12-10T15:16:01.132239+00:00",
             "successful_commands": 10,
             "failed_commands": 0,
             "requirement": "Enforce appropriately secure authentication methods for non-user accounts and services.",
@@ -529,11 +529,11 @@
         },
         {
           "type": "validation_result",
-          "id": "0fa22817",
+          "id": "fca71e3b",
           "data": {
             "ksi_id": "KSI-IAM-04",
             "assessment": "pass",
-            "timestamp": "2025-12-05T20:49:56.459875+00:00",
+            "timestamp": "2025-12-10T15:16:36.408784+00:00",
             "successful_commands": 10,
             "failed_commands": 0,
             "requirement": "Use a least-privileged, role and attribute-based, and just-in-time security authorization model for all user and non-user accounts and services.",
@@ -543,11 +543,11 @@
         },
         {
           "type": "validation_result",
-          "id": "b0902be9",
+          "id": "97ca15d0",
           "data": {
             "ksi_id": "KSI-IAM-05",
             "assessment": "pass",
-            "timestamp": "2025-12-05T20:50:06.075897+00:00",
+            "timestamp": "2025-12-10T15:16:45.363166+00:00",
             "successful_commands": 10,
             "failed_commands": 0,
             "requirement": "Configure identity and access management with measures that always verify each user or device can only access the resources they need.",
@@ -557,11 +557,11 @@
         },
         {
           "type": "validation_result",
-          "id": "663fc29f",
+          "id": "01bf6db9",
           "data": {
             "ksi_id": "KSI-IAM-06",
             "assessment": "pass",
-            "timestamp": "2025-12-05T20:50:13.445824+00:00",
+            "timestamp": "2025-12-10T15:16:53.323116+00:00",
             "successful_commands": 11,
             "failed_commands": 0,
             "requirement": "Automatically disable or otherwise secure accounts with privileged access in response to suspicious activity.",
@@ -571,11 +571,11 @@
         },
         {
           "type": "validation_result",
-          "id": "2b314536",
+          "id": "7639258b",
           "data": {
             "ksi_id": "KSI-IAM-07",
             "assessment": "pass",
-            "timestamp": "2025-12-05T20:50:19.498526+00:00",
+            "timestamp": "2025-12-10T15:16:59.180606+00:00",
             "successful_commands": 8,
             "failed_commands": 0,
             "requirement": "Securely manage the lifecycle and privileges of all accounts, roles, and groups, using automation.",
@@ -585,11 +585,11 @@
         },
         {
           "type": "validation_result",
-          "id": "f4b54097",
+          "id": "1ff1ad1c",
           "data": {
             "ksi_id": "KSI-INR-01",
             "assessment": "pass",
-            "timestamp": "2025-12-05T20:50:22.952153+00:00",
+            "timestamp": "2025-12-10T15:17:02.866024+00:00",
             "successful_commands": 7,
             "failed_commands": 0,
             "requirement": "Always follow a documented incident response procedure.",
@@ -599,11 +599,11 @@
         },
         {
           "type": "validation_result",
-          "id": "883fa471",
+          "id": "39d19e71",
           "data": {
             "ksi_id": "KSI-INR-02",
             "assessment": "pass",
-            "timestamp": "2025-12-05T20:50:24.216583+00:00",
+            "timestamp": "2025-12-10T15:17:04.151891+00:00",
             "successful_commands": 2,
             "failed_commands": 0,
             "requirement": "Maintain a log of incidents and periodically review past incidents for patterns or vulnerabilities.",
@@ -613,11 +613,11 @@
         },
         {
           "type": "validation_result",
-          "id": "f1825fd5",
+          "id": "5ea2aa71",
           "data": {
             "ksi_id": "KSI-INR-03",
             "assessment": "pass",
-            "timestamp": "2025-12-05T20:50:26.376129+00:00",
+            "timestamp": "2025-12-10T15:17:04.428527+00:00",
             "successful_commands": 5,
             "failed_commands": 0,
             "requirement": "Generate after action reports and regularly incorporate lessons learned into operations.",
@@ -627,11 +627,11 @@
         },
         {
           "type": "validation_result",
-          "id": "3ae0814b",
+          "id": "4d5b3c7c",
           "data": {
             "ksi_id": "KSI-MLA-01",
             "assessment": "pass",
-            "timestamp": "2025-12-05T20:50:30.909972+00:00",
+            "timestamp": "2025-12-10T15:17:09.267047+00:00",
             "successful_commands": 7,
             "failed_commands": 0,
             "requirement": "Operate a Security Information and Event Management (SIEM) or similar system(s) for centralized, tamper-resistent logging of events, activities, and changes.",
@@ -641,11 +641,11 @@
         },
         {
           "type": "validation_result",
-          "id": "a84d497e",
+          "id": "bbc6edec",
           "data": {
             "ksi_id": "KSI-MLA-02",
             "assessment": "pass",
-            "timestamp": "2025-12-05T20:50:39.524973+00:00",
+            "timestamp": "2025-12-10T15:17:19.433141+00:00",
             "successful_commands": 8,
             "failed_commands": 0,
             "requirement": "Regularly review and audit logs.",
@@ -655,11 +655,11 @@
         },
         {
           "type": "validation_result",
-          "id": "8798260d",
+          "id": "a4634db3",
           "data": {
             "ksi_id": "KSI-MLA-05",
             "assessment": "pass",
-            "timestamp": "2025-12-05T20:50:43.157835+00:00",
+            "timestamp": "2025-12-10T15:17:23.268285+00:00",
             "successful_commands": 7,
             "failed_commands": 0,
             "requirement": "Perform Infrastructure as Code and configuration evaluation and testing.",
@@ -669,11 +669,11 @@
         },
         {
           "type": "validation_result",
-          "id": "ef82a7fe",
+          "id": "9a847aea",
           "data": {
             "ksi_id": "KSI-MLA-07",
             "assessment": "pass",
-            "timestamp": "2025-12-05T20:50:50.691279+00:00",
+            "timestamp": "2025-12-10T15:17:30.255285+00:00",
             "successful_commands": 10,
             "failed_commands": 0,
             "requirement": "Maintain a list of information resources and event types that will be monitored, logged, and audited, then do so.",
@@ -683,11 +683,11 @@
         },
         {
           "type": "validation_result",
-          "id": "cdb7a7c7",
+          "id": "071bef96",
           "data": {
             "ksi_id": "KSI-MLA-08",
             "assessment": "pass",
-            "timestamp": "2025-12-05T20:50:54.089760+00:00",
+            "timestamp": "2025-12-10T15:17:33.756748+00:00",
             "successful_commands": 3,
             "failed_commands": 0,
             "requirement": "Use a least-privileged, role and attribute-based, and just-in-time access authorization model for access to log data based on organizationally defined data sensitivity.",
@@ -697,11 +697,11 @@
         },
         {
           "type": "validation_result",
-          "id": "ad7bfc60",
+          "id": "f17a0a38",
           "data": {
             "ksi_id": "KSI-PIY-01",
             "assessment": "pass",
-            "timestamp": "2025-12-05T20:50:56.449620+00:00",
+            "timestamp": "2025-12-10T15:17:33.923393+00:00",
             "successful_commands": 2,
             "failed_commands": 0,
             "requirement": "Use authoritative sources to automatically maintain real-time inventories of all information resources.",
@@ -711,11 +711,11 @@
         },
         {
           "type": "validation_result",
-          "id": "1750d1b1",
+          "id": "05119f54",
           "data": {
             "ksi_id": "KSI-PIY-02",
             "assessment": "pass",
-            "timestamp": "2025-12-05T20:50:57.661478+00:00",
+            "timestamp": "2025-12-10T15:17:35.253544+00:00",
             "successful_commands": 1,
             "failed_commands": 0,
             "requirement": "Document the security objectives and requirements for each information resource or set of information resources.",
@@ -725,11 +725,11 @@
         },
         {
           "type": "validation_result",
-          "id": "43ca52bc",
+          "id": "5db37133",
           "data": {
             "ksi_id": "KSI-PIY-03",
             "assessment": "pass",
-            "timestamp": "2025-12-05T20:50:58.158567+00:00",
+            "timestamp": "2025-12-10T15:17:35.715151+00:00",
             "successful_commands": 1,
             "failed_commands": 0,
             "requirement": "Maintain a vulnerability disclosure program.",
@@ -739,11 +739,11 @@
         },
         {
           "type": "validation_result",
-          "id": "922a53eb",
+          "id": "6adeac44",
           "data": {
             "ksi_id": "KSI-PIY-04",
             "assessment": "pass",
-            "timestamp": "2025-12-05T20:51:01.557969+00:00",
+            "timestamp": "2025-12-10T15:17:39.725891+00:00",
             "successful_commands": 3,
             "failed_commands": 0,
             "requirement": "Monitor the effectiveness of building security and privacy considerations into the Software Development Lifecycle and aligning with CISA Secure By Design principles.",
@@ -753,11 +753,11 @@
         },
         {
           "type": "validation_result",
-          "id": "bf1f4e99",
+          "id": "3c8ef179",
           "data": {
             "ksi_id": "KSI-PIY-05",
             "assessment": "pass",
-            "timestamp": "2025-12-05T20:51:08.188681+00:00",
+            "timestamp": "2025-12-10T15:17:46.872267+00:00",
             "successful_commands": 14,
             "failed_commands": 0,
             "requirement": "Document methods used to evaluate information resource implementations.",
@@ -767,11 +767,11 @@
         },
         {
           "type": "validation_result",
-          "id": "7bd565a7",
+          "id": "b20b370d",
           "data": {
             "ksi_id": "KSI-PIY-06",
             "assessment": "pass",
-            "timestamp": "2025-12-05T20:51:08.877095+00:00",
+            "timestamp": "2025-12-10T15:17:47.631327+00:00",
             "successful_commands": 1,
             "failed_commands": 0,
             "requirement": "Monitor the effectiveness of the organization's investments in achieving security objectives.",
@@ -781,11 +781,11 @@
         },
         {
           "type": "validation_result",
-          "id": "0f8a5438",
+          "id": "2eb7bc95",
           "data": {
             "ksi_id": "KSI-PIY-07",
             "assessment": "pass",
-            "timestamp": "2025-12-05T20:51:13.042989+00:00",
+            "timestamp": "2025-12-10T15:17:52.387526+00:00",
             "successful_commands": 4,
             "failed_commands": 0,
             "requirement": "Document risk management decisions for software supply chain security.",
@@ -795,11 +795,11 @@
         },
         {
           "type": "validation_result",
-          "id": "3f8f7f73",
+          "id": "ace396db",
           "data": {
             "ksi_id": "KSI-PIY-08",
             "assessment": "pass",
-            "timestamp": "2025-12-05T20:51:13.472927+00:00",
+            "timestamp": "2025-12-10T15:17:52.872515+00:00",
             "successful_commands": 1,
             "failed_commands": 0,
             "requirement": "Regularly measure executive support for achieving the organization's security objectives.",
@@ -809,11 +809,11 @@
         },
         {
           "type": "validation_result",
-          "id": "861001a3",
+          "id": "a521196a",
           "data": {
             "ksi_id": "KSI-RPL-01",
             "assessment": "pass",
-            "timestamp": "2025-12-05T20:51:14.683148+00:00",
+            "timestamp": "2025-12-10T15:17:54.217251+00:00",
             "successful_commands": 3,
             "failed_commands": 0,
             "requirement": "Define Recovery Time Objectives (RTO) and Recovery Point Objectives (RPO).",
@@ -823,11 +823,11 @@
         },
         {
           "type": "validation_result",
-          "id": "245300f9",
+          "id": "e42f2e00",
           "data": {
             "ksi_id": "KSI-RPL-02",
             "assessment": "pass",
-            "timestamp": "2025-12-05T20:51:34.819079+00:00",
+            "timestamp": "2025-12-10T15:18:13.049081+00:00",
             "successful_commands": 14,
             "failed_commands": 0,
             "requirement": "Develop and maintain a recovery plan that aligns with the defined recovery objectives.",
@@ -837,11 +837,11 @@
         },
         {
           "type": "validation_result",
-          "id": "b08925ca",
+          "id": "5dfa8c80",
           "data": {
             "ksi_id": "KSI-RPL-03",
             "assessment": "pass",
-            "timestamp": "2025-12-05T20:51:37.129486+00:00",
+            "timestamp": "2025-12-10T15:18:15.748246+00:00",
             "successful_commands": 4,
             "failed_commands": 0,
             "requirement": "Perform system backups aligned with recovery objectives.",
@@ -851,11 +851,11 @@
         },
         {
           "type": "validation_result",
-          "id": "60a59631",
+          "id": "019c685a",
           "data": {
             "ksi_id": "KSI-RPL-04",
             "assessment": "pass",
-            "timestamp": "2025-12-05T20:51:47.447773+00:00",
+            "timestamp": "2025-12-10T15:18:27.135445+00:00",
             "successful_commands": 4,
             "failed_commands": 0,
             "requirement": "Regularly test the capability to recover from incidents and contingencies.",
@@ -865,11 +865,11 @@
         },
         {
           "type": "validation_result",
-          "id": "579eab42",
+          "id": "56d6963d",
           "data": {
             "ksi_id": "KSI-SVC-01",
             "assessment": "pass",
-            "timestamp": "2025-12-05T20:51:50.036019+00:00",
+            "timestamp": "2025-12-10T15:18:29.992473+00:00",
             "successful_commands": 4,
             "failed_commands": 0,
             "requirement": "Implement improvements based on persistent evaluation of information resources for opportunities to improve security.",
@@ -879,11 +879,11 @@
         },
         {
           "type": "validation_result",
-          "id": "34ca6413",
+          "id": "bf1fcb18",
           "data": {
             "ksi_id": "KSI-SVC-02",
             "assessment": "pass",
-            "timestamp": "2025-12-05T20:52:04.106048+00:00",
+            "timestamp": "2025-12-10T15:18:41.125102+00:00",
             "successful_commands": 8,
             "failed_commands": 0,
             "requirement": "Encrypt or otherwise secure network traffic.",
@@ -893,11 +893,11 @@
         },
         {
           "type": "validation_result",
-          "id": "b9e8d3eb",
+          "id": "39c6bb05",
           "data": {
             "ksi_id": "KSI-SVC-04",
             "assessment": "pass",
-            "timestamp": "2025-12-05T20:52:11.066996+00:00",
+            "timestamp": "2025-12-10T15:18:49.405089+00:00",
             "successful_commands": 5,
             "failed_commands": 0,
             "requirement": "Manage configuration of machine-based information resources using automation.",
@@ -907,11 +907,11 @@
         },
         {
           "type": "validation_result",
-          "id": "9d6b6772",
+          "id": "5be70c46",
           "data": {
             "ksi_id": "KSI-SVC-05",
             "assessment": "pass",
-            "timestamp": "2025-12-05T20:52:15.767052+00:00",
+            "timestamp": "2025-12-10T15:18:54.152293+00:00",
             "successful_commands": 9,
             "failed_commands": 0,
             "requirement": "Use cryptographic methods to validate the integrity of machine-based information resources.",
@@ -921,11 +921,11 @@
         },
         {
           "type": "validation_result",
-          "id": "c7f40afe",
+          "id": "6f0a5bbd",
           "data": {
             "ksi_id": "KSI-SVC-06",
             "assessment": "pass",
-            "timestamp": "2025-12-05T20:52:19.635050+00:00",
+            "timestamp": "2025-12-10T15:18:58.357692+00:00",
             "successful_commands": 7,
             "failed_commands": 0,
             "requirement": "Automate management, protection, and regular rotation of digital keys, certificates, and other secrets.",
@@ -935,11 +935,11 @@
         },
         {
           "type": "validation_result",
-          "id": "2fe28a55",
+          "id": "5dbd9be1",
           "data": {
             "ksi_id": "KSI-SVC-07",
             "assessment": "pass",
-            "timestamp": "2025-12-05T20:52:23.005452+00:00",
+            "timestamp": "2025-12-10T15:19:02.059548+00:00",
             "successful_commands": 5,
             "failed_commands": 0,
             "requirement": "Use a consistent, risk-informed approach for applying security patches.",
@@ -949,11 +949,11 @@
         },
         {
           "type": "validation_result",
-          "id": "7a828818",
+          "id": "a57c6ef7",
           "data": {
             "ksi_id": "KSI-SVC-08",
             "assessment": "pass",
-            "timestamp": "2025-12-05T20:52:24.408421+00:00",
+            "timestamp": "2025-12-10T15:19:03.623033+00:00",
             "successful_commands": 3,
             "failed_commands": 0,
             "requirement": "Do not introduce or leave behind residual elements that could negatively affect confidentiality, integrity, or availability of federal customer data during operations.",
@@ -963,11 +963,11 @@
         },
         {
           "type": "validation_result",
-          "id": "7ac05076",
+          "id": "e1cae025",
           "data": {
             "ksi_id": "KSI-SVC-09",
             "assessment": "pass",
-            "timestamp": "2025-12-05T20:52:34.645004+00:00",
+            "timestamp": "2025-12-10T15:19:11.431525+00:00",
             "successful_commands": 7,
             "failed_commands": 0,
             "requirement": "Persistently validate the authenticity and integrity of communications between machine-based information resources using automation.",
@@ -977,11 +977,11 @@
         },
         {
           "type": "validation_result",
-          "id": "e9a4dd3a",
+          "id": "ab9aabb7",
           "data": {
             "ksi_id": "KSI-SVC-10",
             "assessment": "pass",
-            "timestamp": "2025-12-05T20:52:42.037762+00:00",
+            "timestamp": "2025-12-10T15:19:20.316052+00:00",
             "successful_commands": 5,
             "failed_commands": 0,
             "requirement": "Remove unwanted federal customer data promptly when requested by an agency in alignment with customer agreements, including from backups if appropriate; this typically applies when a customer spills information or when a customer seeks to remove information from a service due to a change in usage.",
@@ -991,11 +991,11 @@
         },
         {
           "type": "validation_result",
-          "id": "c974ec54",
+          "id": "9681b5e8",
           "data": {
             "ksi_id": "KSI-TPR-03",
             "assessment": "pass",
-            "timestamp": "2025-12-05T20:52:45.391238+00:00",
+            "timestamp": "2025-12-10T15:19:23.990333+00:00",
             "successful_commands": 7,
             "failed_commands": 0,
             "requirement": "Identify and prioritize mitigation of potential supply chain risks.",
@@ -1005,11 +1005,11 @@
         },
         {
           "type": "validation_result",
-          "id": "43cfc0a6",
+          "id": "8cf4b667",
           "data": {
             "ksi_id": "KSI-TPR-04",
             "assessment": "pass",
-            "timestamp": "2025-12-05T20:52:47.514259+00:00",
+            "timestamp": "2025-12-10T15:19:26.410411+00:00",
             "successful_commands": 3,
             "failed_commands": 0,
             "requirement": "Automatically monitor third party software information resources for upstream vulnerabilities using mechanisms that may include contractual notification requirements or active monitoring services.",
