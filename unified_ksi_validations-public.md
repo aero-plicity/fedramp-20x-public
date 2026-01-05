@@ -1,6 +1,6 @@
 # Unified KSI Validation Report
 
-**Generated At:** 2025-12-20T01:11:45.614586+00:00 | **Total Ksis:** 65 | **Total Passed:** 64 | **Total Partial:** 1 | **Total Failed:** 0 | **Automated Vs Static Percentage:** 90 | **Last Updated:** 2025-12-20 | **Status:** active
+**Generated At:** 2026-01-05T01:55:05.261055+00:00 | **Total Ksis:** 65 | **Total Passed:** 64 | **Total Partial:** 1 | **Total Failed:** 0 | **Automated Vs Static Percentage:** 90 | **Last Updated:** 2026-01-05 | **Status:** active
 ---
 
 ## Validation Results
